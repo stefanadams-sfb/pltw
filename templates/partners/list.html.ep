@@ -1,0 +1,8 @@
+% use List::Util 'shuffle';
+% my $roster = config 'roster';
+% my @roster = shuffle @$roster;
+% my $size = param 'size';
+Groups (<%= $size %> per group):<br />
+% while ( @roster ) {
+  <%= join ',', grep { $_ } map { pop @roster } (1..$size) %>
+% }

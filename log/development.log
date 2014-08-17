@@ -1,0 +1,200 @@
+[Sat Aug 16 23:34:51 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 16 23:34:51 2014] [debug] GET "/partners".
+[Sat Aug 16 23:34:51 2014] [debug] Routing to controller "PLTW::Controller::Partners" and action "list".
+[Sat Aug 16 23:34:51 2014] [debug] Rendering template "partners/list.html.ep".
+[Sat Aug 16 23:34:51 2014] [debug] 200 OK (0.004617s, 216.591/s).
+[Sat Aug 16 23:35:22 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 16 23:35:22 2014] [debug] GET "/partners".
+[Sat Aug 16 23:35:22 2014] [debug] Routing to controller "PLTW::Controller::Partners" and action "list".
+[Sat Aug 16 23:35:22 2014] [debug] Rendering template "partners/list.html.ep".
+[Sat Aug 16 23:35:22 2014] [debug] 200 OK (0.004353s, 229.727/s).
+[Sat Aug 16 23:37:04 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Sat Aug 16 23:37:04 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 16 23:37:04 2014] [debug] GET "/partners".
+[Sat Aug 16 23:37:04 2014] [debug] Routing to controller "PLTW::Controller::Partners" and action "list".
+[Sat Aug 16 23:37:04 2014] [debug] Rendering template "partners/list.html.ep".
+[Sat Aug 16 23:37:04 2014] [debug] 200 OK (0.004512s, 221.631/s).
+[Sat Aug 16 23:38:45 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Sat Aug 16 23:38:45 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 16 23:38:45 2014] [debug] GET "/partners".
+[Sat Aug 16 23:38:45 2014] [debug] Routing to controller "PLTW::Controller::Partners" and action "list".
+[Sat Aug 16 23:38:45 2014] [debug] Rendering template "partners/list.html.ep".
+[Sat Aug 16 23:38:45 2014] [debug] 200 OK (0.004541s, 220.216/s).
+[Sat Aug 16 23:38:54 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Sat Aug 16 23:38:54 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 16 23:38:54 2014] [debug] GET "/partners/3".
+[Sat Aug 16 23:38:54 2014] [debug] Routing to controller "PLTW::Controller::Partners" and action "list".
+[Sat Aug 16 23:38:54 2014] [debug] Rendering template "partners/list.html.ep".
+[Sat Aug 16 23:38:54 2014] [debug] 200 OK (0.004453s, 224.568/s).
+[Sat Aug 16 23:39:07 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Sat Aug 16 23:39:07 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 16 23:39:07 2014] [debug] GET "/partners".
+[Sat Aug 16 23:39:07 2014] [debug] Routing to controller "PLTW::Controller::Partners" and action "list".
+[Sat Aug 16 23:39:07 2014] [debug] Rendering template "partners/list.html.ep".
+[Sat Aug 16 23:39:07 2014] [debug] 200 OK (0.004411s, 226.706/s).
+[Sat Aug 16 23:39:56 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Sat Aug 16 23:39:56 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 16 23:39:56 2014] [debug] GET "/partners".
+[Sat Aug 16 23:39:56 2014] [debug] Routing to controller "PLTW::Controller::Partners" and action "list".
+[Sat Aug 16 23:39:56 2014] [debug] Rendering template "partners/list.html.ep".
+[Sat Aug 16 23:39:56 2014] [error] syntax error at template partners/list.html.ep line 2, near "shuffle @"
+1: % my $roster = config 'roster';
+2: % my @roster = shuffle @$roster;
+3: % my $size = param 'size';
+4: Groups (<%= $size %> per group):<br />
+5: % while ( @roster ) {
+6:   <%= join ',', map { pop @roster } (1..$size) %>
+7: % }
+
+[Sat Aug 16 23:39:56 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Aug 16 23:39:56 2014] [debug] Template "exception.html.ep" not found.
+[Sat Aug 16 23:39:56 2014] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Sat Aug 16 23:39:56 2014] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Sat Aug 16 23:39:56 2014] [debug] 500 Internal Server Error (0.037810s, 26.448/s).
+[Sat Aug 16 23:40:23 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Sat Aug 16 23:40:23 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 16 23:40:23 2014] [debug] GET "/partners".
+[Sat Aug 16 23:40:23 2014] [debug] Routing to controller "PLTW::Controller::Partners" and action "list".
+[Sat Aug 16 23:40:23 2014] [debug] Rendering template "partners/list.html.ep".
+[Sat Aug 16 23:40:23 2014] [error] Undefined subroutine &Mojo::Template::Sandbox::60b5c75baee6444e9467934b79543629::shuffle called at template partners/list.html.ep line 2.
+1: % my $roster = config 'roster';
+2: % my @roster = shuffle(@$roster);
+3: % my $size = param 'size';
+4: Groups (<%= $size %> per group):<br />
+5: % while ( @roster ) {
+6:   <%= join ',', map { pop @roster } (1..$size) %>
+7: % }
+
+[Sat Aug 16 23:40:23 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Aug 16 23:40:23 2014] [debug] Template "exception.html.ep" not found.
+[Sat Aug 16 23:40:23 2014] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Sat Aug 16 23:40:23 2014] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Sat Aug 16 23:40:23 2014] [debug] 500 Internal Server Error (0.037257s, 26.841/s).
+[Sat Aug 16 23:40:49 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Sat Aug 16 23:40:49 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 16 23:40:49 2014] [debug] GET "/partners".
+[Sat Aug 16 23:40:49 2014] [debug] Routing to controller "PLTW::Controller::Partners" and action "list".
+[Sat Aug 16 23:40:49 2014] [debug] Rendering template "partners/list.html.ep".
+[Sat Aug 16 23:40:49 2014] [error] Can't locate List/More.pm in @INC (you may need to install the List::More module) (@INC contains: /data/mojo/pltw/script/../lib /home/local/perl5/perlbrew/perls/perl-5.20.0/lib/site_perl/5.20.0/x86_64-linux /home/local/perl5/perlbrew/perls/perl-5.20.0/lib/site_perl/5.20.0 /home/local/perl5/perlbrew/perls/perl-5.20.0/lib/5.20.0/x86_64-linux /home/local/perl5/perlbrew/perls/perl-5.20.0/lib/5.20.0 .) at template partners/list.html.ep line 1.
+BEGIN failed--compilation aborted at template partners/list.html.ep line 1.
+
+[Sat Aug 16 23:40:49 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Aug 16 23:40:49 2014] [debug] Template "exception.html.ep" not found.
+[Sat Aug 16 23:40:49 2014] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Sat Aug 16 23:40:49 2014] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Sat Aug 16 23:40:49 2014] [debug] 500 Internal Server Error (0.038092s, 26.252/s).
+[Sat Aug 16 23:41:43 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Sat Aug 16 23:41:43 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 16 23:41:43 2014] [debug] GET "/partners".
+[Sat Aug 16 23:41:43 2014] [debug] Routing to controller "PLTW::Controller::Partners" and action "list".
+[Sat Aug 16 23:41:43 2014] [debug] Rendering template "partners/list.html.ep".
+[Sat Aug 16 23:41:43 2014] [error] syntax error at template partners/list.html.ep line 3, near "shuffle @"
+1: %# use List::More 'shuffle';
+2: % my $roster = config 'roster';
+3: % my @roster = shuffle @$roster;
+4: % my $size = param 'size';
+5: Groups (<%= $size %> per group):<br />
+6: % while ( @roster ) {
+7:   <%= join ',', map { pop @roster } (1..$size) %>
+8: % }
+
+[Sat Aug 16 23:41:43 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Aug 16 23:41:43 2014] [debug] Template "exception.html.ep" not found.
+[Sat Aug 16 23:41:43 2014] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Sat Aug 16 23:41:43 2014] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Sat Aug 16 23:41:43 2014] [debug] 500 Internal Server Error (0.037756s, 26.486/s).
+[Sat Aug 16 23:41:53 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Sat Aug 16 23:41:53 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 16 23:41:53 2014] [debug] GET "/partners".
+[Sat Aug 16 23:41:53 2014] [debug] Routing to controller "PLTW::Controller::Partners" and action "list".
+[Sat Aug 16 23:41:53 2014] [debug] Rendering template "partners/list.html.ep".
+[Sat Aug 16 23:41:53 2014] [error] Undefined subroutine &Mojo::Template::Sandbox::589ba98eca9ce2ffef14989edae50e78::shuffle called at template partners/list.html.ep line 3.
+1: %# use List::More 'shuffle';
+2: % my $roster = config 'roster';
+3: % my @roster = shuffle(@$roster);
+4: % my $size = param 'size';
+5: Groups (<%= $size %> per group):<br />
+6: % while ( @roster ) {
+7:   <%= join ',', map { pop @roster } (1..$size) %>
+8: % }
+
+[Sat Aug 16 23:41:53 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Aug 16 23:41:53 2014] [debug] Template "exception.html.ep" not found.
+[Sat Aug 16 23:41:53 2014] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Sat Aug 16 23:41:53 2014] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Sat Aug 16 23:41:53 2014] [debug] 500 Internal Server Error (0.037245s, 26.849/s).
+[Sat Aug 16 23:42:03 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Sat Aug 16 23:42:03 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 16 23:42:03 2014] [debug] GET "/partners".
+[Sat Aug 16 23:42:03 2014] [debug] Routing to controller "PLTW::Controller::Partners" and action "list".
+[Sat Aug 16 23:42:03 2014] [debug] Rendering template "partners/list.html.ep".
+[Sat Aug 16 23:42:03 2014] [debug] 200 OK (0.004623s, 216.310/s).
+[Sat Aug 16 23:42:07 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Sat Aug 16 23:42:07 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 16 23:42:07 2014] [debug] GET "/partners/3".
+[Sat Aug 16 23:42:07 2014] [debug] Routing to controller "PLTW::Controller::Partners" and action "list".
+[Sat Aug 16 23:42:07 2014] [debug] Rendering template "partners/list.html.ep".
+[Sat Aug 16 23:42:07 2014] [debug] 200 OK (0.004677s, 213.812/s).
+[Sat Aug 16 23:42:10 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Sat Aug 16 23:42:11 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 16 23:42:11 2014] [debug] GET "/partners/3".
+[Sat Aug 16 23:42:11 2014] [debug] Routing to controller "PLTW::Controller::Partners" and action "list".
+[Sat Aug 16 23:42:11 2014] [debug] Rendering template "partners/list.html.ep".
+[Sat Aug 16 23:42:11 2014] [debug] 200 OK (0.004707s, 212.450/s).
+[Sat Aug 16 23:42:13 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Sat Aug 16 23:42:13 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 16 23:42:13 2014] [debug] GET "/partners/4".
+[Sat Aug 16 23:42:13 2014] [debug] Routing to controller "PLTW::Controller::Partners" and action "list".
+[Sat Aug 16 23:42:13 2014] [debug] Rendering template "partners/list.html.ep".
+[Sat Aug 16 23:42:13 2014] [debug] 200 OK (0.004736s, 211.149/s).
+[Sat Aug 16 23:42:40 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Sat Aug 16 23:42:40 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 16 23:42:40 2014] [debug] GET "/partners/4".
+[Sat Aug 16 23:42:40 2014] [debug] Routing to controller "PLTW::Controller::Partners" and action "list".
+[Sat Aug 16 23:42:40 2014] [debug] Rendering template "partners/list.html.ep".
+[Sat Aug 16 23:42:40 2014] [debug] 200 OK (0.004750s, 210.526/s).
+[Sat Aug 16 23:43:01 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Sat Aug 16 23:43:01 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 16 23:43:01 2014] [debug] GET "/partners/4".
+[Sat Aug 16 23:43:01 2014] [debug] Routing to controller "PLTW::Controller::Partners" and action "list".
+[Sat Aug 16 23:43:01 2014] [debug] Rendering template "partners/list.html.ep".
+[Sat Aug 16 23:43:01 2014] [debug] 200 OK (0.004671s, 214.087/s).
+[Sat Aug 16 23:43:06 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Sat Aug 16 23:43:06 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 16 23:43:06 2014] [debug] GET "/partners".
+[Sat Aug 16 23:43:06 2014] [debug] Routing to controller "PLTW::Controller::Partners" and action "list".
+[Sat Aug 16 23:43:06 2014] [debug] Rendering template "partners/list.html.ep".
+[Sat Aug 16 23:43:06 2014] [debug] 200 OK (0.004744s, 210.793/s).
+[Sat Aug 16 23:43:09 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Sat Aug 16 23:43:09 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 16 23:43:09 2014] [debug] GET "/partners/3".
+[Sat Aug 16 23:43:09 2014] [debug] Routing to controller "PLTW::Controller::Partners" and action "list".
+[Sat Aug 16 23:43:09 2014] [debug] Rendering template "partners/list.html.ep".
+[Sat Aug 16 23:43:09 2014] [debug] 200 OK (0.004709s, 212.359/s).
+[Sat Aug 16 23:43:52 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Sat Aug 16 23:43:52 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 16 23:43:52 2014] [debug] GET "/partners/3".
+[Sat Aug 16 23:43:52 2014] [debug] Routing to controller "PLTW::Controller::Partners" and action "list".
+[Sat Aug 16 23:43:52 2014] [debug] Rendering template "partners/list.html.ep".
+[Sat Aug 16 23:43:52 2014] [debug] 200 OK (0.004697s, 212.902/s).
+[Sat Aug 16 23:44:13 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Sat Aug 16 23:44:13 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 16 23:44:13 2014] [debug] GET "/partners/3".
+[Sat Aug 16 23:44:13 2014] [debug] Routing to controller "PLTW::Controller::Partners" and action "list".
+[Sat Aug 16 23:44:13 2014] [debug] Action not found in controller.
+[Sat Aug 16 23:44:13 2014] [debug] Rendering template "partners/list.html.ep".
+[Sat Aug 16 23:44:13 2014] [debug] 200 OK (0.004597s, 217.533/s).
+[Sat Aug 16 23:44:41 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Sat Aug 16 23:44:41 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 16 23:44:41 2014] [debug] GET "/partners/3".
+[Sat Aug 16 23:44:41 2014] [debug] Routing to controller "PLTW::Controller::Partners" and action "list".
+[Sat Aug 16 23:44:41 2014] [debug] Action not found in controller.
+[Sat Aug 16 23:44:41 2014] [debug] Rendering template "partners/list.html.ep".
+[Sat Aug 16 23:44:41 2014] [debug] 200 OK (0.004756s, 210.261/s).
+[Sat Aug 16 23:44:44 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Sat Aug 16 23:44:44 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Aug 16 23:44:44 2014] [debug] GET "/partners".
+[Sat Aug 16 23:44:44 2014] [debug] Routing to controller "PLTW::Controller::Partners" and action "list".
+[Sat Aug 16 23:44:44 2014] [debug] Action not found in controller.
+[Sat Aug 16 23:44:44 2014] [debug] Rendering template "partners/list.html.ep".
+[Sat Aug 16 23:44:44 2014] [debug] 200 OK (0.004485s, 222.965/s).

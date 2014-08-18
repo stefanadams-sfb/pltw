@@ -198,3 +198,13 @@ BEGIN failed--compilation aborted at template partners/list.html.ep line 1.
 [Sat Aug 16 23:44:44 2014] [debug] Action not found in controller.
 [Sat Aug 16 23:44:44 2014] [debug] Rendering template "partners/list.html.ep".
 [Sat Aug 16 23:44:44 2014] [debug] 200 OK (0.004485s, 222.965/s).
+[Sun Aug 17 00:04:01 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Sun Aug 17 00:04:01 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug 17 00:04:01 2014] [debug] GET "/partners".
+[Sun Aug 17 00:04:01 2014] [debug] Routing to controller "PLTW::Controller::Partners" and action "list".
+[Sun Aug 17 00:04:01 2014] [debug] Action not found in controller.
+[Sun Aug 17 00:04:01 2014] [debug] Rendering template "partners/list.html.ep".
+[Sun Aug 17 00:04:01 2014] [debug] 200 OK (0.004691s, 213.174/s).
+[Mon Aug 18 17:20:29 2014] [debug] Reading config file "/data/mojo/pltw/PLTW.conf".
+[Mon Aug 18 17:20:35 2014] [debug] Reading config file "/data/mojo/pltw/PLTW.conf".
+[Mon Aug 18 17:21:05 2014] [debug] Reading config file "/data/mojo/pltw/PLTW.conf".

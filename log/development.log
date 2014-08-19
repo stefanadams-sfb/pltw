@@ -208,3 +208,135 @@ BEGIN failed--compilation aborted at template partners/list.html.ep line 1.
 [Mon Aug 18 17:20:29 2014] [debug] Reading config file "/data/mojo/pltw/PLTW.conf".
 [Mon Aug 18 17:20:35 2014] [debug] Reading config file "/data/mojo/pltw/PLTW.conf".
 [Mon Aug 18 17:21:05 2014] [debug] Reading config file "/data/mojo/pltw/PLTW.conf".
+[Mon Aug 18 17:22:00 2014] [debug] Reading config file "/data/mojo/pltw/PLTW.conf".
+[Mon Aug 18 17:22:00 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 18 17:22:00 2014] [debug] GET / (Mojolicious (Perl)).
+[Mon Aug 18 17:22:00 2014] [debug] Controller "PLTW::Example" does not exist.
+[Mon Aug 18 17:22:00 2014] [debug] Rendering template "example/welcome.html.ep".
+[Mon Aug 18 17:22:00 2014] [error] Global symbol "$msg" requires explicit package name at template example/welcome.html.ep line 3.
+1: % layout 'default';
+2: % title 'Welcome';
+3: <h2><%= $msg %></h2>
+4: This page was generated from the template "templates/example/welcome.html.ep"
+5: and the layout "templates/layouts/default.html.ep",
+6: <a href="<%== url_for %>">click here</a> to reload the page or
+7: <a href="/index.html">here</a> to move forward to a static page.
+
+[Mon Aug 18 17:22:00 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Aug 18 17:22:00 2014] [debug] Template "exception.html.ep" not found.
+[Mon Aug 18 17:22:00 2014] [debug] Rendering inline template.
+[Mon Aug 18 17:22:00 2014] [debug] Rendering inline template.
+[Mon Aug 18 17:22:00 2014] [debug] 500 Internal Server Error (0.041968s, 23.828/s).
+[Mon Aug 18 17:26:41 2014] [debug] Reading config file "/data/mojo/pltw/PLTW.conf".
+[Mon Aug 18 17:26:41 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 18 17:26:41 2014] [debug] GET /communication (Mojolicious (Perl)).
+[Mon Aug 18 17:26:41 2014] [debug] Template "communication.html.ep" not found.
+[Mon Aug 18 17:26:41 2014] [debug] Template "not_found.development.html.ep" not found.
+[Mon Aug 18 17:26:41 2014] [debug] Template "not_found.html.ep" not found.
+[Mon Aug 18 17:26:41 2014] [debug] Rendering inline template.
+[Mon Aug 18 17:26:41 2014] [debug] Rendering inline template.
+[Mon Aug 18 17:26:41 2014] [debug] 404 Not Found (0.026572s, 37.634/s).
+[Mon Aug 18 17:27:31 2014] [debug] Reading config file "/data/mojo/pltw/PLTW.conf".
+[Mon Aug 18 17:27:31 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 18 17:27:31 2014] [debug] GET /communication (Mojolicious (Perl)).
+[Mon Aug 18 17:27:31 2014] [debug] Controller "PLTW::Communication" does not exist.
+[Mon Aug 18 17:27:31 2014] [debug] Template "communication/index.html.ep" not found.
+[Mon Aug 18 17:27:31 2014] [debug] Template "not_found.development.html.ep" not found.
+[Mon Aug 18 17:27:31 2014] [debug] Template "not_found.html.ep" not found.
+[Mon Aug 18 17:27:31 2014] [debug] Rendering inline template.
+[Mon Aug 18 17:27:31 2014] [debug] Rendering inline template.
+[Mon Aug 18 17:27:31 2014] [debug] 404 Not Found (0.027540s, 36.311/s).
+[Mon Aug 18 17:27:53 2014] [debug] Reading config file "/data/mojo/pltw/PLTW.conf".
+[Mon Aug 18 17:27:53 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 18 17:27:53 2014] [debug] GET /communication (Mojolicious (Perl)).
+[Mon Aug 18 17:27:53 2014] [debug] Controller "PLTW::Communication" does not exist.
+[Mon Aug 18 17:27:53 2014] [debug] Rendering template "communication/index.html.ep".
+[Mon Aug 18 17:27:53 2014] [debug] 200 OK (0.005815s, 171.969/s).
+[Mon Aug 18 17:29:47 2014] [debug] Reading config file "/data/mojo/pltw/PLTW.conf".
+[Mon Aug 18 17:29:47 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 18 17:29:47 2014] [debug] GET /communication (Mojolicious (Perl)).
+[Mon Aug 18 17:29:47 2014] [debug] Controller "PLTW::Communication" does not exist.
+[Mon Aug 18 17:29:47 2014] [debug] Rendering template "communication/index.html.ep".
+[Mon Aug 18 17:29:47 2014] [debug] 200 OK (0.010657s, 93.835/s).
+[Mon Aug 18 17:47:11 2014] [debug] Reading config file "/data/mojo/pltw/PLTW.conf".
+[Mon Aug 18 17:47:11 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 18 17:47:11 2014] [debug] GET /articles (Mojolicious (Perl)).
+[Mon Aug 18 17:47:11 2014] [debug] Controller "PLTW::Articles" does not exist.
+[Mon Aug 18 17:47:11 2014] [debug] Rendering template "articles/index.html.ep".
+[Mon Aug 18 17:47:11 2014] [debug] 200 OK (0.006470s, 154.560/s).
+[Mon Aug 18 19:11:26 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Mon Aug 18 19:11:26 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 18 19:11:26 2014] [debug] GET "/".
+[Mon Aug 18 19:11:26 2014] [debug] Routing to controller "PLTW::Controller::Example" and action "welcome".
+[Mon Aug 18 19:11:26 2014] [debug] Rendering template "example/welcome.html.ep".
+[Mon Aug 18 19:11:26 2014] [error] Global symbol "$msg" requires explicit package name at template example/welcome.html.ep line 3.
+1: % layout 'default';
+2: % title 'Welcome';
+3: <h2><%= $msg %></h2>
+4: This page was generated from the template "templates/example/welcome.html.ep"
+5: and the layout "templates/layouts/default.html.ep",
+6: <a href="<%== url_for %>">click here</a> to reload the page or
+7: <a href="/index.html">here</a> to move forward to a static page.
+
+[Mon Aug 18 19:11:26 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Aug 18 19:11:26 2014] [debug] Template "exception.html.ep" not found.
+[Mon Aug 18 19:11:26 2014] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Mon Aug 18 19:11:26 2014] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Aug 18 19:11:26 2014] [debug] 500 Internal Server Error (0.038380s, 26.055/s).
+[Mon Aug 18 19:11:43 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Mon Aug 18 19:11:43 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 18 19:11:43 2014] [debug] GET "/".
+[Mon Aug 18 19:11:43 2014] [debug] Routing to controller "PLTW::Controller::Example" and action "welcome".
+[Mon Aug 18 19:11:43 2014] [debug] Rendering template "example/welcome.html.ep".
+[Mon Aug 18 19:11:43 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 18 19:11:43 2014] [debug] 200 OK (0.004718s, 211.954/s).
+[Mon Aug 18 19:20:04 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Mon Aug 18 19:20:29 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Mon Aug 18 19:20:29 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 18 19:20:29 2014] [debug] GET "/".
+[Mon Aug 18 19:20:29 2014] [debug] Routing to controller "PLTW::Controller::Example" and action "welcome".
+[Mon Aug 18 19:20:29 2014] [debug] Rendering template "example/welcome.html.ep".
+[Mon Aug 18 19:20:29 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 18 19:20:29 2014] [debug] 200 OK (0.004954s, 201.857/s).
+[Mon Aug 18 19:20:35 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Mon Aug 18 19:20:35 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 18 19:20:35 2014] [debug] GET "/".
+[Mon Aug 18 19:20:35 2014] [debug] Routing to controller "PLTW::Controller::Example" and action "welcome".
+[Mon Aug 18 19:20:35 2014] [debug] Rendering template "example/welcome.html.ep".
+[Mon Aug 18 19:20:35 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 18 19:20:35 2014] [debug] 200 OK (0.004547s, 219.925/s).
+[Mon Aug 18 19:23:57 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Mon Aug 18 19:23:57 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 18 19:23:57 2014] [debug] GET "/".
+[Mon Aug 18 19:23:57 2014] [debug] Routing to controller "PLTW::Controller::Example" and action "welcome".
+[Mon Aug 18 19:23:57 2014] [debug] Rendering template "example/welcome.html.ep".
+[Mon Aug 18 19:23:57 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 18 19:23:57 2014] [debug] 200 OK (0.004711s, 212.269/s).
+[Mon Aug 18 19:33:25 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Mon Aug 18 19:33:25 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 18 19:33:25 2014] [debug] GET "/".
+[Mon Aug 18 19:33:25 2014] [error] syntax error at /data/mojo/pltw/script/../lib/PLTW/Controller/Example.pm line 8, near "config 'xkcd'"
+Global symbol "$xkcd" requires explicit package name at /data/mojo/pltw/script/../lib/PLTW/Controller/Example.pm line 9.
+Compilation failed in require at (eval 273) line 1.
+
+[Mon Aug 18 19:33:25 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Aug 18 19:33:25 2014] [debug] Template "exception.html.ep" not found.
+[Mon Aug 18 19:33:25 2014] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Mon Aug 18 19:33:25 2014] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Aug 18 19:33:25 2014] [debug] 500 Internal Server Error (0.036212s, 27.615/s).
+[Mon Aug 18 19:33:46 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Mon Aug 18 19:33:46 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 18 19:33:46 2014] [debug] GET "/".
+[Mon Aug 18 19:33:46 2014] [debug] Routing to controller "PLTW::Controller::Example" and action "welcome".
+[Mon Aug 18 19:33:46 2014] [debug] Nothing has been rendered, expecting delayed response.
+[Mon Aug 18 19:33:46 2014] [debug] Rendering template "example/welcome.html.ep".
+[Mon Aug 18 19:33:46 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 18 19:33:46 2014] [debug] 200 OK (0.121709s, 8.216/s).
+[Mon Aug 18 19:40:08 2014] [debug] Reading configuration file "/data/mojo/pltw/PLTW.conf".
+[Mon Aug 18 19:40:08 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 18 19:40:08 2014] [debug] GET "/".
+[Mon Aug 18 19:40:08 2014] [debug] Routing to controller "PLTW::Controller::Example" and action "welcome".
+[Mon Aug 18 19:40:08 2014] [debug] Nothing has been rendered, expecting delayed response.
+[Mon Aug 18 19:40:08 2014] [debug] Rendering template "example/welcome.html.ep".
+[Mon Aug 18 19:40:08 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 18 19:40:08 2014] [debug] 200 OK (0.103065s, 9.703/s).

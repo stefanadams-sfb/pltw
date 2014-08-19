@@ -5,8 +5,15 @@ use Mojo::Base 'Mojolicious::Controller';
 sub welcome {
   my $self = shift;
 
-  # Render template "example/welcome.html.ep" with message
-  $self->render(msg => 'Welcome to the Mojolicious real-time web framework!');
+  my $xkcd = $self->config('xkcd');
+  my %xkcd = %$xkcd;
+  $xkcd = (keys %xkcd)[rand keys %xkcd];
+  my $moral = $xkcd{$xkcd};
+  $self->render_later;
+  $self->ua->get("http://xkcd.com/$xkcd/info.0.json" => sub {
+    my ($ua, $tx) = @_;
+    $self->render(img => $tx->res->json->{img}, alt => $tx->res->json->{alt}, moral => $moral);
+  });
 }
 
 1;

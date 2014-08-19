@@ -16,6 +16,11 @@ sub startup {
   # Normal route to controller
   $r->get('/')->to('example#welcome');
   $r->get('/partners/:size')->to('partners#list', size => 2);
+  $r->get('/syllabus')->to('syllabus#index');
+  $r->get('/curriculum')->to('curriclum#index');
+  $r->get('/communication')->to('communication#index');
+  $r->get('/resources')->to('resources#index');
+  $r->get('/articles')->to('articles#index');
 }
 
 1;

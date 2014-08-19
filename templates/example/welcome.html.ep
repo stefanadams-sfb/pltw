@@ -1,7 +1,12 @@
 % layout 'default';
-% title 'Welcome';
-<h2><%= $msg %></h2>
-This page was generated from the template "templates/example/welcome.html.ep"
-and the layout "templates/layouts/default.html.ep",
-<a href="<%== url_for %>">click here</a> to reload the page or
-<a href="/index.html">here</a> to move forward to a static page.
+% title 'PLTW - CSE';
+<h1>PLTW - Computer Science and Engineering</h1>
+<a href="<%= url_for 'syllabus' %>">Syllabus</a><br />
+<a href="<%= url_for 'curriculum' %>">Curriculum</a><br />
+<a href="http://my.pltw.org">LMS</a><br />
+<a href="http://convos.borgia.com">IRC</a><br />
+<a href="<%= url_for 'communication' %>">Communications</a><br />
+<a href="<%= url_for 'resources' %>">Resources</a><br />
+<a href="<%= url_for 'articles' %>">Articles</a><br />
+<%= $moral %><br /><br />
+<img src="<%= $img %>" alt="<%= $alt %>" />

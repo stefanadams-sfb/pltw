@@ -4,5 +4,5 @@
 % my $size = param 'size';
 Groups (<%= $size %> per group):<br />
 % while ( @roster ) {
-  <%= join ',', grep { $_ } map { pop @roster } (1..$size) %>
+  <%= join ',', grep { $_ } map { pop @roster } (1..$size) %><br />
 % }

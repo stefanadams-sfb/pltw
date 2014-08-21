@@ -4,6 +4,7 @@
 <a href="http://my.pltw.org">LMS</a><br />
 <a href="https://pltw.instructure.com/courses/208732/assignments/syllabus">Syllabus</a><br />
 <a href="http://convos.borgia.com">IRC</a><br />
+<a href="http://codeacademy.org">Code Academy</a><br />
 <hr />
 <a href="<%= url_for 'communication' %>">Communications</a><br />
 <a href="<%= url_for 'books' %>">Books</a><br />

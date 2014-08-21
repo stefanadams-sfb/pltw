@@ -5,6 +5,8 @@ use Mojo::Base 'Mojolicious';
 sub startup {
   my $self = shift;
 
+  Mojo::IOLoop->next_tick(sub { srand });
+
   $self->moniker('PLTW');
   # Documentation browser under "/perldoc"
   $self->plugin('PODRenderer');

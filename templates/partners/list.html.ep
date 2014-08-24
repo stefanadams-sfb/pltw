@@ -1,8 +1,25 @@
 % use List::Util 'shuffle';
-% my $roster = config 'roster';
-% my @roster = shuffle @$roster;
 % my $size = param 'size';
-Groups (<%= $size %> per group):<br />
+% my @roster = ();
+% if ( $size ) {
+  % my $roster = config 'roster';
+  % @roster = shuffle map { $_->{name} } @$roster;
+  % $redis->set(roster => join '::', @roster);
+  % $redis->set(size => $size);
+% } else {
+  % my $roster = $redis->get('roster');
+  % @roster = split '::', $roster;
+  % $size = $redis->get('size');
+% }
+Groups (<%= $size %> per group):<br /><br />
+% my @partners = ();
+% my $c = 1;
 % while ( @roster ) {
-  <%= join ',', grep { $_ } map { pop @roster } (1..$size) %><br />
+  % if ( $#roster < $size ) {
+    <li>Wildcards:
+  % } else {
+    <%= $c %>: 
+  % }
+  <%= join ', ', grep { $_ } map { pop @roster } (1..$size) %><br /><br />
+  % $c++;
 % }

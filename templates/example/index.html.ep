@@ -1,0 +1,7 @@
+% layout 'default';
+% title 'PLTW - CSE';
+<h1>PLTW - Computer Science and Engineering</h1>
+<a href="http://my.pltw.org">LMS</a><br />
+<a href="https://pltw.instructure.com/courses/208732/assignments/syllabus">Syllabus</a><br />
+<hr />
+<a href="<%= url_for 'partners' %>">Groups</a><br />

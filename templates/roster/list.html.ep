@@ -1,0 +1,10 @@
+% my $roster = config 'roster';
+<table>
+<tr>
+% my $c = 0;
+% foreach ( @$roster ) {
+  %== $c % 6 == 0 ? '</tr><tr>' : '';
+  <td><%= $_->{name} %><br /><img src="/photos/<%= $_->{id} %>.JPG" width="150" /></td>
+% } continue { $c++ }
+</tr>
+</table>

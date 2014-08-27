@@ -4,6 +4,7 @@
 % if ( $size ) {
   % my $roster = config 'roster';
   % @roster = shuffle map { $_->{name} } @$roster;
+  %# @roster = reverse('William Morgan', 'Kailee Storie', 'Joseph Tochtrop', 'Josue Stores', 'Michael Matthews', 'Christian Matoushek', 'James Dyson', 'Christopher Dobsch', 'Alexa Meyer', 'Evan Ayers', 'Aaron Westhoff', 'Justin Molitor', 'Ethan Ottens', 'Jacob Dorpinghaus', 'Jacob Simily', 'Matthew Brinkmann', 'Benjamin Byers', 'Noah Brown', 'Benjamin Meyer', 'Drew Piontek', 'William Schreiwer', 'Katherine Bruton', 'James Beckmeyer');
   % $redis->set(roster => join '::', @roster);
   % $redis->set(size => $size);
 % } else {

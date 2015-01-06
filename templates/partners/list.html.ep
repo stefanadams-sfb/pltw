@@ -12,15 +12,25 @@
   % @roster = split '::', $roster;
   % $size = $redis->get('size');
 % }
+<table>
+<tr style="vertical-align: top">
+<td>
 Groups (<%= $size %> per group):<br /><br />
 % my @partners = ();
 % my $c = 1;
 % while ( @roster ) {
-  % if ( $#roster < $size ) {
-    <li>Wildcards:
+  % if ( $#roster+1 < $size ) {
+    <li>Wildcards (<%= $#roster %> / <%= $size %>):
   % } else {
     <%= $c %>: 
   % }
   <%= join ', ', grep { $_ } map { pop @roster } (1..$size) %><br /><br />
   % $c++;
 % }
+</td>
+<td>
+%# <img src="<%= $img %>" alt="<%= $alt %>" /><br /><br />
+%# <%= $moral %>
+</td>
+</tr>
+</table>
